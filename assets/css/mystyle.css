@@ -3,43 +3,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100&display=swap');
 
 /* VARIABLES */
-:root{
-    --cream-color :#D9C9B9;
+:root {
+    --cream-color: #D9C9B9;
     --font-hero-card: 'Bebas Neue';
 }
 
 
-html{
+html {
     font-size: 16px;
 }
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     border: border-box;
 }
+
 /**NAV BAR**/
-.nav-bar{
+.nav-bar {
     margin: 2.5rem 0 3rem 0;
     padding: 0;
 }
 
-    /**SEARCH BAR**/
-    .search-bar {
-        width: 100%;
-        height: auto;
-        
-    }
-    .input-group{
-        width: 100%;
-    
-    }
-    .input-box {
-        width: 35.1875rem;;
-        border: none;
-    }
+/**SEARCH BAR**/
+.search-bar {
+    width: 100%;
+    height: auto;
+
+}
+
+.input-group {
+    width: 100%;
+
+}
+
+.input-box {
+    width: 35.1875rem;
+    ;
+    border: none;
+}
 
 /**NAV MENU**/
-.nav-link{
+.nav-link {
     font-size: 0.9375rem;
     letter-spacing: 0.02813rem;
 }
@@ -49,10 +54,12 @@ body {
     background: rgba(185, 194, 217, 0.30);
 }
 
-.ann-bar-div{
-    min-height: 4.1875rem;;
+.ann-bar-div {
+    min-height: 4.1875rem;
+    ;
 }
-.ann-bar-text{
+
+.ann-bar-text {
     font-size: 0.8125rem;
     line-height: normal;
     letter-spacing: 0.02438rem;
@@ -61,102 +68,106 @@ body {
 
 
 /**HERO SECTION**/
-.bg-image{
-    background-image: url('/images/banner_image.png');
+.bg-image {
+    background-image: url('/assets/images/banner_image.png');
     height: 43.75rem;
     background-size: cover;
     background-repeat: no-repeat;
 
 }
-    /**HERO CARD**/
 
-    .hero-card{
-        max-width: 23.6875rem;
-        width: 100%;
-        background: transparent;   
-    }
+/**HERO CARD**/
 
-    .hero-card-body {
-        background: rgba(120, 120, 120, 0.90);
-        padding: 3.75rem;
-    }
+.hero-card {
+    max-width: 23.6875rem;
+    width: 100%;
+    background: transparent;
+}
 
-    .hero-card-title {
-        color: var(--cream-color);
-        font-size: 2rem;
-        line-height: 1.25rem;
-        letter-spacing: -0.03rem;
-        padding-bottom: 1.88rem;
-        margin: 0;
-    }
+.hero-card-body {
+    background: rgba(120, 120, 120, 0.90);
+    padding: 3.75rem;
+}
 
-    .hero-card-text-1 {
-        color: var(--cream-color);
-        font-family: var(--font-hero-card);
-        font-size: 4.5rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin: 0;
-    }
+.hero-card-title {
+    color: var(--cream-color);
+    font-size: 2rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.03rem;
+    padding-bottom: 1.88rem;
+    margin: 0;
+}
 
-    .hero-card-text-2{
-        color: var(--cream-color);
-        font-family: var(--font-hero-card);
-        font-size: 2.8125rem;
-        letter-spacing: -0.04219rem;
-        margin-top: 0.3rem;
-        margin-bottom: 0;
-        padding: 0;
-    }
-    .hero-card-text-3{
-        color: var(--cream-color);
-        font-family: var(--font-hero-card);
-        font-size: 2.8125rem;
-        letter-spacing: -0.04219rem;
-        padding: 0;  
-        margin-bottom: 0; 
-    }
+.hero-card-text-1 {
+    color: var(--cream-color);
+    font-family: var(--font-hero-card);
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
 
-    .hero-card-btn {
-        width: 8.75rem;
-        height: 2.8125rem;
-        gap: 0.1875rem;
-        border-radius: 0.625rem;
-        background: #B9C2D9;
-        color: #000;
-        margin-top: 3.5rem;
-    }
+.hero-card-text-2 {
+    color: var(--cream-color);
+    font-family: var(--font-hero-card);
+    font-size: 2.8125rem;
+    letter-spacing: -0.04219rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.hero-card-text-3 {
+    color: var(--cream-color);
+    font-family: var(--font-hero-card);
+    font-size: 2.8125rem;
+    letter-spacing: -0.04219rem;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.hero-card-btn {
+    width: 8.75rem;
+    height: 2.8125rem;
+    gap: 0.1875rem;
+    border-radius: 0.625rem;
+    background: #B9C2D9;
+    color: #000;
+    margin-top: 3.5rem;
+}
 
 /**CATEGORY SECTION**/
-.category-section .container{
+.category-section .container {
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
-.cat-title{
+
+.cat-title {
     font-family: var(--font-hero-card);
-    margin-bottom:1.56rem ;
+    margin-bottom: 1.56rem;
     font-size: 2.125rem;
     letter-spacing: -0.03188rem;
 }
-.cat-items{
-    margin:0;
+
+.cat-items {
+    margin: 0;
 }
 
 /**BEST OF BEST**/
 .bob-title {
     font-family: var(--font-hero-card);
     font-size: 3.125rem;
-    
+
 }
 
 /* PRODUCT CARD */
-.product-card-img{
+.product-card-img {
     height: 8.8125rem;
     object-fit: contain;
 }
 
-.product-card-title{
+.product-card-title {
     font-size: smaller;
 }
 
@@ -170,12 +181,12 @@ body {
 
 .bob-section #owl-carousel-1 .product-card-btn img,
 .whats-new-section #owl-carousel-2 .product-card-btn img,
-.recent-stock-section #owl-carousel-3 .product-card-btn img  {
+.recent-stock-section #owl-carousel-3 .product-card-btn img {
     display: inline;
     width: 1.3125rem;
 }
 
-.owl-nav{
+.owl-nav {
     position: absolute;
     bottom: -3rem;
     left: 0;
@@ -183,7 +194,9 @@ body {
     gap: 2rem;
     padding-bottom: 0;
 }
-.owl-nav .owl-prev:hover, .owl-nav .owl-next:hover{
+
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
     background: none !important;
     outline: none !important;
     opacity: 1;
@@ -219,7 +232,7 @@ body {
 /**ARTICLE BLOG 1**/
 .blog-card-body {
     background: rgba(185, 194, 217, 0.30);
-    
+
 }
 
 .blog-card-title {
@@ -235,7 +248,7 @@ body {
 
 .blog-btn {
     display: flex;
-    width:fit-content;
+    width: fit-content;
     height: 3.125rem;
     justify-content: center;
     align-items: center;
@@ -248,7 +261,8 @@ body {
     font-family: var(--font-hero-card);
     font-size: 2.4375rem;
 }
-.article-blog-2-section .card-body{
+
+.article-blog-2-section .card-body {
     background: #EAEAEA;
 }
 
@@ -288,26 +302,31 @@ body {
         margin: 1rem 0 1.2rem 0;
         padding: 0;
     }
-    }
+}
 
 @media (max-width:575px) {
     .blog-btn {
         width: 100%;
     }
+
     .hero-card-btn {
         width: 100%;
     }
+
     .row {
         text-align: center;
     }
-    .footer-content-social-list{
+
+    .footer-content-social-list {
         justify-content: center;
     }
-    .footer-content-text{
+
+    .footer-content-text {
         justify-content: center;
     }
-    .footer-1-form{
+
+    .footer-1-form {
         text-align: left;
-        
+
     }
 }
