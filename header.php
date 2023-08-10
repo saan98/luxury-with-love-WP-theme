@@ -30,9 +30,11 @@
         <!--NAV-BAR-START-->
         <nav class="navbar navbar-expand-lg navbar-light nav-bar">
             <div class="container gap-4">
-                <a href="#" class="navbar-brand me-0"><img
-                        src="<?php echo get_template_directory_uri(  ); ?>/assets/images//logo.png"
-                        alt="Luxury With Love logo" /></a>
+                <a href="#" class="navbar-brand me-0">
+                    <?php 
+                        the_custom_logo();
+                    ?>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -178,7 +180,6 @@
         <header id="masthead" class="site-header">
             <div class="site-branding">
                 <?php
-			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
                 <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"
